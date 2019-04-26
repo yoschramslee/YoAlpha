@@ -80,6 +80,11 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    public int[] bogoSort(int[] array) {
+        for(int i = 0; i < array.length; ++i) {
+            int swap = Math.random()
+        }
+    }
     public void switchView(int id) {
         if(findViewById(id) instanceof View) {
             return;
