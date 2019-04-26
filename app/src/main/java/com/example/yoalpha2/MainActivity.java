@@ -85,47 +85,12 @@ public class MainActivity extends AppCompatActivity
             int swap = Math.random()
         }
     }
-    public void switchView(int id) {
-        if(findViewById(id) instanceof View) {
-            return;
-        }
-        try {
-            ((ViewGroup) findViewById(R.id.content_directory).getParent()).removeViewAt(1);
-            return;
-        } catch(Exception e) {}
-        View appBarView = findViewById(R.id.app_bar_layout);
-        ViewGroup viewParent = ((ViewGroup) appBarView.getParent());
-        ViewGroup.LayoutParams layoutParams = viewParent.getChildAt(1).getLayoutParams();
-        viewParent.removeViewAt(1);
-        int layoutId = 0;
-        switch(id) {
-            case R.id.content_home:
-                layoutId = R.layout.content_home;
-                break;
-            case R.id.content_announcements:
-                layoutId = R.layout.content_announcements;
-                break;
-            case R.id.content_info:
-                layoutId = R.layout.content_info;
-                break;
-            case R.id.content_club_sport:
-                layoutId = R.layout.content_club_sport;
-                break;
-            case R.id.content_directory:
-                layoutId = R.layout.content_directory;
-                break;
-            default:
-                return;
-        }
-        LayoutInflater.from(appBarView.getContext()).inflate(layoutId, viewParent);
-        //viewParent.addView(LayoutInflater.from(getApplicationContext()).inflate(layoutId, null), 1);
-        //addContentView(LayoutInflater.from(getApplicationContext()).inflate(layoutId, null), layoutParams);
-    }
+    public void switchView(blayout.content_directory;
+                break;hb
+            default:kj
 
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+n    @Override
+o        // Handle navigation view item clicks here.
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
