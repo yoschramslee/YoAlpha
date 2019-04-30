@@ -15,6 +15,32 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
+            android:name=".AnnouncementsActivity"
+            android:label="@string/title_activity_announcements"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ClubSportActivity"
+            android:label="@string/title_activity_club_sport"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DirectoryActivity"
+            android:label="@string/title_activity_directory"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.yoalpha2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.yoalpha2.MainActivity" />
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">

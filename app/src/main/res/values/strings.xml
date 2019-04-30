@@ -15,4 +15,15 @@
     <string name="current_layout">&#64;layout/content_home</string>
     <string name="home_screen">Home Screen</string>
     <string name="template_text">template text</string>
+    <string name="title_activity_info">InfoActivity</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_directory">DirectoryActivity</string>
+    <string name="title_activity_club_sport">ClubSportActivity</string>
+    <string name="title_activity_announcements">AnnouncementsActivity</string>
 </resources>
