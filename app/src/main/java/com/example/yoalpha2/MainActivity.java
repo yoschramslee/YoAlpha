@@ -123,23 +123,6 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-        Intent switchActivity = null;
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_announcements) {
-            switchActivity = new Intent(this, AnnouncementsActivity.class);
-        } else if (id == R.id.nav_info) {
-            switchActivity = new Intent(this, InfoActivity.class);
-        } else if (id == R.id.nav_clubsport) {
-            switchActivity = new Intent(this, ClubSportActivity.class);
-        } else if (id == R.id.nav_teachers) {
-            switchActivity = new Intent(this, DirectoryActivity.class);
-        }
-
-        if(switchActivity instanceof Intent) startActivity(switchActivity);
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
+        return Util.switchTo(this, id);
     }
 }
