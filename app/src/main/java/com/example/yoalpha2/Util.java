@@ -9,9 +9,7 @@ public class Util {
 
     public static boolean switchTo(Activity self, int id){
         Intent switchActivity = null;
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_announcements) {
+        if (id == R.id.nav_announcements) {
             switchActivity = new Intent(self, AnnouncementsActivity.class);
         } else if (id == R.id.nav_info) {
             switchActivity = new Intent(self, InfoActivity.class);
@@ -22,11 +20,13 @@ public class Util {
         }
 
 
-        if (switchActivity instanceof Intent)
+        if (switchActivity instanceof Intent || id == R.id.nav_home)
         {
-            self.startActivity(switchActivity);
             DrawerLayout drawer = self.findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
+            if(!(id == R.id.nav_home)) {
+                self.startActivity(switchActivity);
+            }
             if (!(self instanceof MainActivity)) {
                 self.finish();
 
