@@ -2,10 +2,16 @@ package com.example.yoalpha2;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.view.View;
 
 public class Util {
+
+    public static final String PREFS_NAME = "prefs";
+    public static final String PREF_DARK_THEME = "dark_theme";
+    public static boolean useDarkTheme = true;
 
     public static boolean switchTo(Activity self, int id){
         Intent switchActivity = null;
@@ -34,5 +40,17 @@ public class Util {
             return true;
         }
         return false;
+    }
+
+
+    private static void toggleMeme(Activity self, boolean darkTheme, View v) {
+        SharedPreferences.Editor editor = self.getSharedPreferences(PREFS_NAME, self.MODE_PRIVATE).edit();
+        editor.putBoolean(PREF_DARK_THEME, darkTheme);
+        editor.apply();
+
+        Intent intent = self.getIntent();
+        self.finish();
+
+        self.startActivity(intent);
     }
 }

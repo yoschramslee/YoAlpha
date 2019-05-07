@@ -2,6 +2,7 @@ package com.example.yoalpha2;
 
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.FloatingActionButton;
@@ -26,6 +27,13 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        SharedPreferences preferences = getSharedPreferences(Util.PREFS_NAME, MODE_PRIVATE);
+        Util.useDarkTheme = preferences.getBoolean(Util.PREF_DARK_THEME, false);
+
+        if(Util.useDarkTheme) {
+            setTheme(R.style.AppTheme_Dark);
+        }
+
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
