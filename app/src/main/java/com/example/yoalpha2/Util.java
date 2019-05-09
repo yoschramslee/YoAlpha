@@ -43,7 +43,7 @@ public class Util {
     }
 
 
-    private static void toggleMeme(Activity self, boolean darkTheme, View v) {
+    public static void toggleTheme(Activity self, boolean darkTheme, View v) {
         SharedPreferences.Editor editor = self.getSharedPreferences(PREFS_NAME, self.MODE_PRIVATE).edit();
         editor.putBoolean(PREF_DARK_THEME, darkTheme);
         editor.apply();
