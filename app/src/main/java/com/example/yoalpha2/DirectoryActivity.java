@@ -15,10 +15,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.InputStreamReader;
-import java.net.URI;
 
 public class DirectoryActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -41,10 +38,9 @@ public class DirectoryActivity extends AppCompatActivity
 
     protected void populateDirectory(){
         try {
-            InputStreamReader isr = new InputStreamReader(getClass().getResourceAsStream("/com/example/yoalpha2/data/DirectoryCanton.txt"));
+            InputStreamReader isr = new InputStreamReader(this.getResources().openRawResource(R.raw.directory_canton));
             BufferedReader bin = new BufferedReader(isr);
             String str;
-
             TableLayout table = findViewById(R.id.canton_directory);
 
             while((str = bin.readLine()) != null){
@@ -59,7 +55,6 @@ public class DirectoryActivity extends AppCompatActivity
             }
 
             bin.close();
-            isr.close();
         }catch (Exception e){
             e.printStackTrace();
         }
