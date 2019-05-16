@@ -1,0 +1,127 @@
+Subject,Teacher,Classroom
+Math,,
+,Amy Abraham,C167
+,Kristen Davies,C168
+,Jennifer Greene,C154
+,Kimberly Janiga,C165
+,Keri Jossey,C152
+,AnaMarie Kananen,C163
+,Joanna McLean,C157
+,Marci Parks,C120
+,Noah Salter,C99 & C122
+,Marianne Smelewski,C158
+,Jessica Vanston,C98
+,Ed Weber,C150
+,Vicki Wysocki,C151
+Math Lab,Sara Wisniewski,C160
+English,,
+,Karen Anthony,C224
+,Jeff Blakeslee,C216
+,Brett DeBear,C219
+,Jan Eggers,C228
+,Megan Gustitus,C234
+,Jennifer Haynes,C225
+,Andy LaFada,C108 & C130
+,Jennifer McDermott,C231
+,Shannon McNutt,C215
+,Michelle Mimikos,C235
+,Peggy Morelli,C221
+STEM 3-6,Beth Schmitt,C129
+,David Steele,C212
+,Melissa Thompson,C230
+English,,
+,Karen Anthony,C224
+,Jeff Blakeslee,C216
+,Brett DeBear,C219
+,Jan Eggers,C228
+,Megan Gustitus,C234
+,Jennifer Haynes,C225
+,Andy LaFada,C108 & C130
+,Jennifer McDermott,C231
+,Shannon McNutt,C215
+,Michelle Mimikos,C235
+,Peggy Morelli,C221
+STEM 3-6,Beth Schmitt,C129
+,David Steele,C212
+,Melissa Thompson,C230
+English STEM,Andrea Wright,C209
+Writing Center,Jeffrey Blakeslee,Canton’s Library A & B Lunch
+Plymouth’s library A & C lunch
+Salem’s Library A & C lunch
+World Language,,
+,Stacey Aksman,C100
+,Kim Henson,C103
+,Devin Long,C107
+,Lisa Niemiec,C113
+,Merrie Sigro-Wattleworth,C108
+,David VandeVusse,C105
+,Jamie Terlaak,C111
+Science,,
+,Jennifer Banach,C144
+STEM,Jeff Boykin,V20
+STEM,Janice Depper,C135
+,Charles Hameline,C179
+STEM,Laurie Hren,C145
+,Justina Kaya,C130
+,Derek Kendall,C177
+,Val leveille,C137
+STEM leader,John Magoulick,CV8
+,Andrea Palmer,CV21
+STEM,Ron Perkins,CV11/ C172
+,Bill Rothwell,C124
+,Antoinette Zaker,C176
+,Nicole Ziegler,C175
+,Jeffrey Richards,C247
+,Zavnab Salman,C242
+,Michele Smiley,C251
+,Kathy Stark,C97
+Health,,
+,Amy Abraham,C121
+Health Occ CTE,Laura Kuzmick,V24
+,Andrew Ross,C129 & C121
+Music,,
+,Cathy Depentu,C300
+,Penny Kazmierski,C300
+PE,,
+,Tim Baechler,CGYM
+,Dave Gerlach,CGYM
+,Bev Lardin,CGYM
+Media Spec,,
+,John Heilman,LRC
+Business,,
+,Heather Schram,C123
+,Marsha Watkins,C104
+,Michelle Tomé,C110
+,Scott Obsniuk,C122 & V26
+,Lesnie Orsborn,C123
+TL,,
+,Cil Aquilina,C136
+,Richard Mui,C256
+,Heather Schram,C123
+FCS,,
+,Emily Moczulski,C133
+Auto,,
+,Mike Frantsen,V17
+Photo/Art,,
+,Tony Vassallo,C125
+Speech,,
+,Amy Remski,C202B
+Psychilogist,Kathy Grodus,C119
+Social Worker,Susan McDaniel,C118
+CTE,,
+,Cil Aquilina,C136
+CTE Leader,Heather Schram,C123
+,Mike Frantsen,V17
+,Laura Kuzmick,V24
+,Jerry Lickey,V15
+,Jay Obsniuk,V12
+,Robert Wharry,"V9, V11"
+Special Ed,,
+,Rachel Ammar,C204
+,Lisa Duganne,C170
+,Molly Kenison,C205
+,Jacklyn Klotz,202A
+,Samantha Maples,C205
+,Jessica Stark,C203
+,Nicole Reed,C203
+,Cynthia Mohacsi,C186
