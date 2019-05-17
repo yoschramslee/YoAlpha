@@ -1,0 +1,141 @@
+Subject,Teacher,Classroom
+Math,,
+,Justine Cotner,S3006
+,Chris Florkowski,(1&2) S3005/ (4) S3004/ (5&6) S3017
+,Kate Greene,(4&6) S2005
+,Mike Guinta (God),S2123
+,Chris Hymes,S2400
+,Emily McClellan,S3001
+,Leslie Munger,S2117B
+,Rhonda Newton,S3010
+,Jennifer Olivero,S3017
+,Narmeen Razzaqui,S2106
+,Heather Robinson,S3008
+,Cynthia Rochette,S3004
+,Deborah Russ,S3012
+,Kim Scully,S3015
+,Ed Uhrik,S2115
+,Christopher Zirk,S2117A
+Subject,Teacher,Classroom
+English,,
+,Lauren Cummings,S2208
+,Kathy Churchill,S2205
+,Donna Gatzke,S2207
+,Shelly Bates-Ketcham,(5&6) 2204
+,Kelly Giromini,S2215
+,David Krzisnik,S2217
+,Dayna Lang,S2302
+,Gretchen Miller,S2210
+,Ty Moss,S2214
+,Laura Palmer,S2212
+,Kristen Quesada,S1207
+,Brad Silverman,S2206
+,Katelyn Streicher,S2204
+Subject,Teacher,Classroom
+World Language,,
+,Valerie Beilman,S2101
+,Brenda Belanger,S2225
+,Rayna Gill,S2233
+,Joan Kalish,S2203
+,Shannon Martin,S2111
+,Kathy Rokakis,S2113
+,Kay Spring-Glass,S2103
+,Darren Way,S2106
+,Donna Wellman,S2109
+Subject,Teacher,Classroom
+Science,,
+,Heidi Avery,S3113
+,Angela Brown,S1125
+,Sharon Caldwell,S3114
+,Kelsey Charnawskas,S3101
+,Nicholas Ford,S3003
+,Gary Sean,S1127
+,Donna Hollandsworth,S3102
+,William Johnston,S3108
+,Marcia Lizzo,S1221
+,Heidi McElmeel,S3100
+,Joan Pence,S3116
+,Spencer Schroer,S3107
+,Kathy Smiley,S3103
+,Richard Stevens,S3115
+Subject,Teacher,Classroom
+Social Studies,,
+,Steve Aspinall,S1205
+,Susan Bawden,S2229
+,Bill Boyd,S2133
+,Carrie Chobanian,S2129
+,Miles Edick,S2118
+,Rayna Gill,S2233
+,Sam Lacorato,S2116
+,Mike Seneker,S2220
+,Darrin Slivester,S2131
+,Derek Southwick,S2304
+,Ricky Styes,S2231
+,Paul Vaughn,S2303
+,Jim Wheaton,S2222
+Subject,Teacher,Classroom
+PE,,
+,Bob Brodie,Gym
+,Bob Cummings,Gym
+,Merrill DeRose,1404
+,Roxane McCormick,Gym
+,Kevin Palmer,1131
+Subject,Teacher,Classroom
+Health,,
+,Ryan Nimmerguth,1204
+,Kevin Palmer,1131
+Subject,Teacher,Classroom
+Art,,
+,Ann Espinoza,S1209
+,Craig linderman,S1208
+,Keli Osborne,S1214
+,Lindsay Pignatiello,S1211
+Subject,Teacher,Classroom
+Art Academy,,
+,Amy Brown-Willacker,S2200/S2202
+Subject,Teacher,Classroom
+PPS,,
+,Sandra Ackerman,S1217
+,Kurt Britnell,S2301
+,Karolyn Coffey,S1219
+,Merrill DeRose,S1404
+,Lauren Evans,S1218
+,Paul Fisher,S2306
+,Sara Kruz,S1220
+,Jennifer Mauer,(1&3) S1219
+,Becky Nimmerguth,(3&6) S1203
+,Joni Vandyke,S3014
+Subject,Teacher,Classroom
+CTE,,
+,Diain Biecker,(1st&3rd) S1206
+,Barrie Lincourt,S1123
+,Diana Woodward,S1110
+Subject,Teacher,Classroom
+Business,,
+,Lensie Orsborn,S1117
+,Barb Rutecki,S1119
+,Christina Scappaticci,S1118
+Subject,Teacher,Classroom
+FCS,,
+,Cindy Bartlett,S12000
+Subject,Teacher,Classroom
+ELL,,
+,Hagda Volpe-Patrocinio do,(2nd-6th)S1122
+,Isra,Naseer
+Subject,Teacher,Classroom
+Speech,,
+,Andrea Eby,S1133C
+Subject,Teacher,Classroom
+Music,,
+,Jonathan Lunneberg,S1400
+,Jennifer Neumann,S1400
+Subject,Teacher,Classroom
+Media Specialist,,
+,Marsha Payne,LRC
+Subject,Teacher,Classroom
+Psychologist,,
+,Leslie Theodorakakos,S2119B
+Recycling Bins,,
+Canton High School,By Maintenance,
+Salem High School,Behind The Kitchen,
+Plymouth High School,By Maintenance,

@@ -13,6 +13,12 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.widget.TableLayout;
+import android.widget.TableRow;
+import android.widget.TextView;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class ClubSportActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -30,6 +36,54 @@ public class ClubSportActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+
+        populateTable();
+    }
+
+    protected void populateTable(){
+        try {
+            InputStreamReader isr = new InputStreamReader(this.getResources().openRawResource(R.raw.clubs));
+            BufferedReader bin = new BufferedReader(isr);
+            String str;
+            TableLayout table = findViewById(R.id.clubsport_table);
+
+            while((str = bin.readLine()) != null){
+                TableRow tr = new TableRow(this);
+                String[] astr = str.split(",");
+                for(int i = 0; i < astr.length; i++){
+                    TextView t = new TextView(this);
+                    t.setText(astr[i]);
+                    tr.addView(t);
+                }
+                table.addView(tr);
+            }
+
+            bin.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+        try {
+            InputStreamReader isr = new InputStreamReader(this.getResources().openRawResource(R.raw.directory_salem));
+            BufferedReader bin = new BufferedReader(isr);
+            String str;
+            TableLayout table = findViewById(R.id.salem_directory);
+
+            while((str = bin.readLine()) != null){
+                TableRow tr = new TableRow(this);
+                String[] astr = str.split(",");
+                for(int i = 0; i < astr.length; i++){
+                    TextView t = new TextView(this);
+                    t.setText(astr[i]);
+                    tr.addView(t);
+                }
+                table.addView(tr);
+            }
+
+            bin.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Override

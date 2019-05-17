@@ -22,15 +22,29 @@
             <TextView
                 android:id="@+id/canton_directory_header"
                 android:layout_width="match_parent"
-                android:layout_height="43dp"
-                android:text="CSH Staff Directory"
+                android:layout_height="wrap_content"
+                android:text="CHS Staff Directory"
                 android:textSize="24sp" />
 
             <TableLayout
                 android:id="@+id/canton_directory"
                 android:layout_width="match_parent"
-                android:layout_height="1195dp"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*" />
+
+            <TextView
+                android:id="@+id/salem_directory_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nSHS Staff Directory"
+                android:textSize="24sp" />
+
+            <TableLayout
+                android:id="@+id/salem_directory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:stretchColumns="*"/>
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

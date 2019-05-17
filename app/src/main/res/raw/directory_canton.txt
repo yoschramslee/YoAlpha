@@ -1,4 +1,4 @@
-Subject,Teacher,Classroom
+Subject,Teacher,Room
 Math,,
 ,Amy Abraham,C167
 ,Kristen Davies,C168
@@ -45,9 +45,7 @@ STEM 3-6,Beth Schmitt,C129
 ,David Steele,C212
 ,Melissa Thompson,C230
 English STEM,Andrea Wright,C209
-Writing Center,Jeffrey Blakeslee,Canton’s Library A & B Lunch
-Plymouth’s library A & C lunch
-Salem’s Library A & C lunch
+Writing Center,Jeffrey Blakeslee,Canton’s Library A & B Lunch; Plymouth’s library A & C lunch; Salem’s Library A & C lunch
 World Language,,
 ,Stacey Aksman,C100
 ,Kim Henson,C103

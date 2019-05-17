@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity
             case R.id.content_info:
                 layoutId = R.layout.content_info;
                 break;
-            case R.id.content_club_sport:
+            case R.id.content_clubsport:
                 layoutId = R.layout.content_club_sport;
                 break;
             case R.id.content_directory:

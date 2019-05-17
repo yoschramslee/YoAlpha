@@ -58,6 +58,28 @@ public class DirectoryActivity extends AppCompatActivity
         }catch (Exception e){
             e.printStackTrace();
         }
+
+        try {
+            InputStreamReader isr = new InputStreamReader(this.getResources().openRawResource(R.raw.directory_salem));
+            BufferedReader bin = new BufferedReader(isr);
+            String str;
+            TableLayout table = findViewById(R.id.salem_directory);
+
+            while((str = bin.readLine()) != null){
+                TableRow tr = new TableRow(this);
+                String[] astr = str.split(",");
+                for(int i = 0; i < astr.length; i++){
+                    TextView t = new TextView(this);
+                    t.setText(astr[i]);
+                    tr.addView(t);
+                }
+                table.addView(tr);
+            }
+
+            bin.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @Override
